@@ -1,0 +1,28 @@
+.news-sovet__item{
+  text-decoration: none;
+  color: var(--text-color);
+  transition: all 100ms;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding-bottom: 8px;
+}
+.news-sovet__data, .news-sovet__text{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.news-sovet__item:hover{
+  color: var(--text-color);
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.2);
+}
+.news-sovet__pic{
+  margin-bottom: 4px;
+}
+.news-sovet__pic img{
+  max-width: 100%;
+}
+.news-sovet__data{
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}

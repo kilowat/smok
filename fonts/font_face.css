@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('./subset-BebasNeueRegular.woff2') format('woff2'),
+        url('./subset-BebasNeueRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('./subset-BebasNeueBold.woff2') format('woff2'),
+        url('./subset-BebasNeueBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url('./subset-BebasNeueBook.woff2') format('woff2'),
+        url('./subset-BebasNeueBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('./subset-BebasNeue-Light.woff2') format('woff2'),
+        url('./subset-BebasNeue-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('./subset-BebasNeue-Thin.woff2') format('woff2'),
+        url('./subset-BebasNeue-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('./subset-BebasNeueRegular.woff2') format('woff2'),
+        url('./subset-BebasNeueRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('./subset-BebasNeue-Thin.woff2') format('woff2'),
+        url('./subset-BebasNeue-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url('./subset-BebasNeueBook.woff2') format('woff2'),
+        url('./subset-BebasNeueBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('./subset-BebasNeueBold.woff2') format('woff2'),
+        url('./subset-BebasNeueBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('./subset-BebasNeueLight.woff2') format('woff2'),
+        url('./subset-BebasNeueLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

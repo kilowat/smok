@@ -1,0 +1,21 @@
+.about-pic img{
+  max-width: 100%;
+}
+.about-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.about-cell{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(50% - 20px);
+}
+.about-wrapper .btn-row{
+  margin-top: 20px;
+}
+.map-block{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
