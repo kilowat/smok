@@ -1,0 +1,8 @@
+.links__item{
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+.links__pic{
+  margin-bottom: 20px;
+}

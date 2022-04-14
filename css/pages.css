@@ -19,3 +19,19 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+@media screen and (max-width:1000px) {
+  .about-wrapper{
+    display: block;
+    margin: 0;
+  }
+  .about-cell{
+    margin: 0;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .about-pic{
+   text-align: center;
+   margin: 0;
+   padding: 0;;
+  }
+}

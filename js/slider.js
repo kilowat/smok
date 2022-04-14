@@ -1,15 +1,13 @@
 
-function init() {
+document.addEventListener("DOMContentLoaded", function(event) { 
   var swiper = new Swiper('.swiper-container', {
-    allowTouchMove: false,
+    allowTouchMove: true,
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',
     },
-
+    autoplay: {
+      delay: 5000,
+    },
   });
-}
-
-document.addEventListener("DOMContentLoaded", function(event) { 
-  init();
 });

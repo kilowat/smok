@@ -1,7 +1,13 @@
 :root{
+  --primary-color: #fff;
   --accent-color: #78b1ec;
+  --link-hover-color: #2f71b8;
+  --footer-bg-color: #565656;
   --base-font: 'Arial';
   --title-font: 'Bebas Neue';
   --text-color: #565656;
+  --light-text-color: #565656;
   --link-color: #000;
+  --mobile-menu-width: 50px;
+  --mobile-header-height: 60px;
 }

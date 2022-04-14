@@ -1,3 +1,5 @@
+@import './boot.css';
+
 h1,h2,h3,h4{
   font-family: var(--title-font);
   font-weight: 500;
@@ -5,13 +7,33 @@ h1,h2,h3,h4{
 h1{
   font-size: 40px;
 }
+.title-block{
+  font-size: 40px;
+  text-align: center;
+}
+@media screen and (max-width:1000px) {
+  h1{
+    font-size: 22px;
+  }
+  .title-block{
+    font-size: 22px;
+  }
+  main{
+    padding-top: 50px;
+  }
+}
+
+main{
+  padding-bottom: 40px;
+}
 a{
   font-weight: 300;
   color: var(--link-color);
   text-decoration: underline;
+  transition: all 100ms;
 }
 a:hover{
-  color: var(--accent-color);
+  color: var(--link-hover-color);
 }
 body {
   background-color: #fff;
@@ -79,16 +101,28 @@ p{
 
 .grid-list{
   display: flex;
-  margin: -10px;
+  margin: -8px;
+  flex-wrap: wrap;
 }
 .grid-list.col-3 .grid-item{
-  margin: 10px;
-  width: calc(33.3% - 20px);
+  margin: 8px;
+  width: calc(33.3% - 16px);
 }
 .grid-list.col-4 .grid-item{
-  margin: 15px;
-  width: calc(25% - 20px);
+  margin: 8px;
+  width: calc(25% - 16px);
 }
+@media screen and (max-width:1000px) {
+  .grid-list.col-3 .grid-item{
+    margin: 8px;
+    width: calc(50% - 16px);
+  }
+  .grid-list.col-4 .grid-item{
+    margin: 8px;
+    width: calc(50% - 16px);
+  }
+}
+
 .see-detail-row{
   text-align: center;
   margin-top: 28px;

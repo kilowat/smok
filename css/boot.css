@@ -1,0 +1,13 @@
+@import './vars.css';
+@import '../lib/swiper/swiper-bundle.min.css';
+@import '../fonts/font_face.css';
+@import './normalize.css';
+@import './components/main-slider.css';
+@import './components/news-sovet.css';
+@import './components/news-region.css';
+@import './components/links.css';
+@import './components/mobile-menu.css';
+@import './btn.css';
+@import './header.css';
+@import './footer.css';
+@import './pages.css';

@@ -6,18 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="Text" />
   <link rel="shortcut icon" href="favicon/favicon.ico" />
-  <link rel="stylesheet" href="./css/normalize.css" />
   <link rel="stylesheet" href="./css/main.css" />
-  <link rel="stylesheet" href="./lib/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="./fonts/font_face.css" />
-  <link rel="stylesheet" href="./css/header.css" />
-  <link rel="stylesheet" href="./css/vars.css" />
-  <link rel="stylesheet" href="./css/pages.css" />
-  <link rel="stylesheet" href="./css/components/news-sovet.css" />
-  <link rel="stylesheet" href="./css/footer.css" />
-  <link rel="stylesheet" href="./css/components/main-slider.css" />
-  <link rel="stylesheet" href="./css/btn.css" />
-  <!--<link rel="preload" href="../fonts/Roboto-Regular.ttf" as="font" type="font/ttf" crossorigin>-->
   <title>СМОКК</title>
 </head>
 
@@ -35,19 +24,57 @@
               </div>
               <div class="logo-text">
                 <div class="logo-tite">КООРДИНАЦИОННЫЙ СОВЕТ</div>
-                Ассоциаций муниципальных
-                образований РЕГИОНОВ ЮГА РОССИИ
+                <div>Ассоциаций муниципальных</div>
+                <div>образований РЕГИОНОВ ЮГА РОССИИ</div>
               </div>
             </div>
             <div class="header-block__right">
-              right block
+              <div class="action-cmp">
+                <button class="select-country">
+                  <span class="arrow-down"></span>
+                  <span class="flag-icon" style="background-image: url(./img/flag.png);"></span>
+                  <span class="select-link">Краснодарский край</span>
+                </button>
+              </div>
+              <div class="phone-block">
+                <div class="address">г. Краснодар, ул. Ленина, 65, оф. 307</div>
+                <div class="phone">
+                  <a href="call:+78612751045" title="">+7 (861) 275-10-45</a> <span>|</span> <a href="call:+78612751256"
+                    title="">+7 (861) 275-12-56</a>
+                </div>
+              </div>
+              <div class="search-cmp">
+                <div class="search-wrapper">
+                  <input type="text" class="input-search">
+                  <button class="btn-search">
+                    <?xml version="1.0" ?>
+                    <!DOCTYPE svg
+                      PUBLIC '-//W3C//DTD SVG 1.0//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'><svg
+                      class="search-icon" enable-background="new 0 0 24 24" id="Layer_1" version="1.0"
+                      viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g>
+                        <g>
+                          <path
+                            d="M9,4c2.8,0,5,2.2,5,5s-2.2,5-5,5s-5-2.2-5-5S6.2,4,9,4 M9,2C5.1,2,2,5.1,2,9c0,3.9,3.1,7,7,7s7-3.1,7-7C16,5.1,12.9,2,9,2    L9,2z" />
+                        </g>
+                      </g>
+                      <g>
+                        <polygon points="22,20.3 20.3,22 14,15.7 14,14 15.7,14  " />
+                        <rect height="3.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.9741 14.4227)" width="1.2"
+                          x="13.8" y="12.6" />
+                      </g>
+                    </svg>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div class="nav-block">
         <div class="container">
-          <div class="nav-row">
+          <nav class="nav-row">
             <ul>
               <li>
                 <a href="#" title="">Главная</a>
@@ -59,16 +86,59 @@
                 <a href="#" title="">События совета</a>
               </li>
               <li>
-                <a href="#" title="">Главная</a>
+                <a href="#" title="">Члены Совета</a>
               </li>
+              <li>
+                <a href="#" title="">Новости регионов</a>
+              </li>
+              <li>
+                <a href="#" title="">Вопрос-ответ</a>
+              </li>
+              <li>
+                <a href="#" title="">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="mobile-block trigger-menu-wrapper">
+        <div class="container">
+          <div class="mobile-row">
+            <div id="mobile-menu"><span></span><span></span><span></span></div>
+            <div class="action-cell">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="mobile-menu-content">
+        <div class="mobile-menu-wrapper">
+          <div class="mobile-menu-row">
+            <a href="/" title="#">
+              <img src="./img/logo.png" height="100" width="115" alt="logo" id="logo" />
+            </a>
+          </div>
+          <div class="mobile-menu-row">
+            <ul>
               <li>
                 <a href="#" title="">Главная</a>
               </li>
               <li>
-                <a href="#" title="">Главная</a>
+                <a href="#" title="">О совете</a>
               </li>
               <li>
-                <a href="#" title="">Главная</a>
+                <a href="#" title="">События совета</a>
+              </li>
+              <li>
+                <a href="#" title="">Члены Совета</a>
+              </li>
+              <li>
+                <a href="#" title="">Новости регионов</a>
+              </li>
+              <li>
+                <a href="#" title="">Вопрос-ответ</a>
+              </li>
+              <li>
+                <a href="#" title="">Контакты</a>
               </li>
             </ul>
           </div>
@@ -86,7 +156,7 @@
                   <div class="slider-text">
                     <span>В Сочи начинает свою работу</span>
                     <span>Межрегиональный форум муниципальных</span>
-                    <span>образований Юга России</span>                             
+                    <span>образований Юга России</span>
                   </div>
                 </div>
               </div>
@@ -95,7 +165,7 @@
                   <div class="slider-text">
                     <span>2В Сочи начинает свою работу</span>
                     <span>Межрегиональный форум муниципальных</span>
-                    <span>образований Юга России</span>                             
+                    <span>образований Юга России</span>
                   </div>
                 </div>
               </div>
@@ -104,7 +174,7 @@
                   <div class="slider-text">
                     <span>3В Сочи начинает свою работу</span>
                     <span>Межрегиональный форум муниципальных</span>
-                    <span>образований Юга России</span>                             
+                    <span>образований Юга России</span>
                   </div>
                 </div>
               </div>
@@ -118,22 +188,32 @@
 
       <div class="about">
         <div class="container">
-          <h1 class="text-center">Координационный совет регионов Юга России</h1>
+          <h1 class="title-block">Координационный совет регионов Юга России</h1>
           <div class="about-wrapper">
             <div class="about-pic about-cell">
               <img src="./img/about-pic.png" alt="#">
             </div>
             <div class="about-text about-cell">
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, labore placeat. Molestias, omnis. Quidem dolorum architecto culpa veniam debitis quaerat eaque aperiam tempora, dolores ipsum nobis! Nisi nesciunt dolore praesentium.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, labore placeat. Molestias, omnis. Quidem
+                dolorum architecto culpa veniam debitis quaerat eaque aperiam tempora, dolores ipsum nobis! Nisi
+                nesciunt dolore praesentium.
               </p>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, labore placeat. Molestias, omnis. Quidem dolorum architecto culpa veniam debitis quaerat eaque aperiam tempora, dolores ipsum nobis! Nisi nesciunt dolore praesentium.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maiores excepturi atque temporibus consequatur, expedita dolorem eos rerum doloribus sed quidem numquam soluta, minima dolore et corrupti harum, veritatis similique!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae ea impedit quos quisquam nesciunt nihil, molestias cum ipsum et laborum explicabo, ducimus quasi magni natus incidunt molestiae aut hic voluptas.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, labore placeat. Molestias, omnis. Quidem
+                dolorum architecto culpa veniam debitis quaerat eaque aperiam tempora, dolores ipsum nobis! Nisi
+                nesciunt dolore praesentium.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maiores excepturi atque temporibus
+                consequatur, expedita dolorem eos rerum doloribus sed quidem numquam soluta, minima dolore et corrupti
+                harum, veritatis similique!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae ea impedit quos quisquam nesciunt
+                nihil, molestias cum ipsum et laborum explicabo, ducimus quasi magni natus incidunt molestiae aut hic
+                voluptas.
               </p>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, labore placeat. Molestias, omnis. Quidem dolorum architecto culpa veniam debitis quaerat eaque aperiam tempora, dolores ipsum nobis! Nisi nesciunt dolore praesentium.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, labore placeat. Molestias, omnis. Quidem
+                dolorum architecto culpa veniam debitis quaerat eaque aperiam tempora, dolores ipsum nobis! Nisi
+                nesciunt dolore praesentium.
               </p>
               <div class="btn-row">
                 <a href="#" class="btn btn-primary">Подробнее</a>
@@ -149,6 +229,7 @@
       </div>
       <div class="news-sovet top-news">
         <div class="container">
+          <h2 class="title-block">События координационного совета</h2>
           <div class="news-sovet__list grid-list col-3">
             <a class="news-sovet__item grid-item" href="#" title="#">
               <div class="news-sovet__pic">
@@ -177,14 +258,171 @@
           </div>
         </div>
       </div>
+      <div class="news-region top-news">
+        <div class="container">
+          <div class="news-region__list grid-list col-3">
+            <a class="news-region__item grid-item" href="#" title="#">
+              <div class="news-region__pic">
+                <img src="./img/reg-news-1.png" alt="">
+              </div>
+              <div class="news-region__content">
+                <div class="news-region__name">Состоялось первое собрание координационного совета в 2022 году</div>
+                <div class="news-region-bottom">
+                  <div class="news-region__text">Краснодарский край</div>
+                  <div class="news-region__data">15 января 2022</div>
+                </div>
+              </div>
+            </a>
+            <a class="news-region__item grid-item" href="#" title="#">
+              <div class="news-region__pic">
+                <img src="./img/reg-news-1.png" alt="">
+              </div>
+              <div class="news-region__content">
+                <div class="news-region__name">Состоялось первое собрание координационного совета в 2022 году</div>
+                <div class="news-region-bottom">
+                  <div class="news-region__text">Краснодарский край</div>
+                  <div class="news-region__data">15 января 2022</div>
+                </div>
+              </div>
+            </a>
+            <a class="news-region__item grid-item" href="#" title="#">
+              <div class="news-region__pic">
+                <img src="./img/reg-news-1.png" alt="">
+              </div>
+              <div class="news-region__content">
+                <div class="news-region__name">Состоялось первое собрание координационного совета в 2022 году</div>
+                <div class="news-region-bottom">
+                  <div class="news-region__text">Краснодарский край</div>
+                  <div class="news-region__data">15 января 2022</div>
+                </div>
+              </div>
+            </a>
+            <a class="news-region__item grid-item" href="#" title="#">
+              <div class="news-region__pic">
+                <img src="./img/reg-news-1.png" alt="">
+              </div>
+              <div class="news-region__content">
+                <div class="news-region__name">Состоялось первое собрание координационного совета в 2022 году</div>
+                <div class="news-region-bottom">
+                  <div class="news-region__text">Краснодарский край</div>
+                  <div class="news-region__data">15 января 2022</div>
+                </div>
+              </div>
+            </a>
+            <a class="news-region__item grid-item" href="#" title="#">
+              <div class="news-region__pic">
+                <img src="./img/reg-news-1.png" alt="">
+              </div>
+              <div class="news-region__content">
+                <div class="news-region__name">Состоялось первое собрание координационного совета в 2022 году</div>
+                <div class="news-region-bottom">
+                  <div class="news-region__text">Краснодарский край</div>
+                  <div class="news-region__data">15 января 2022</div>
+                </div>
+              </div>
+            </a>
+            <a class="news-region__item grid-item" href="#" title="#">
+              <div class="news-region__pic">
+                <img src="./img/reg-news-1.png" alt="">
+              </div>
+              <div class="news-region__content">
+                <div class="news-region__name">Состоялось первое собрание координационного совета в 2022 году</div>
+                <div class="news-region-bottom">
+                  <div class="news-region__text">Краснодарский край</div>
+                  <div class="news-region__data">15 января 2022</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="see-detail-row">
+            <a href="#" title="#">Все новости</a>
+          </div>
+        </div>
+      </div>
+      <div class="links">
+        <div class="container">
+          <h2 class="title-block">Полезные ссылки</h2>
+          <div class="links__list grid-list col-4">
+            <a class="links__item grid-item">
+              <div class="links__pic">
+                <img src="./img/link-1.png" alt="">
+              </div>
+              <div class="links__text">
+                Всероссийская ассоциация
+                местного самоуправления
+              </div>
+            </a>
+            <a class="links__item grid-item">
+              <div class="links__pic">
+                <img src="./img/link-1.png" alt="">
+              </div>
+              <div class="links__text">
+                Всероссийская ассоциация
+                местного самоуправления
+              </div>
+            </a>
+            <a class="links__item grid-item">
+              <div class="links__pic">
+                <img src="./img/link-1.png" alt="">
+              </div>
+              <div class="links__text">
+                Всероссийская ассоциация
+                местного самоуправления
+              </div>
+            </a>
+            <a class="links__item grid-item">
+              <div class="links__pic">
+                <img src="./img/link-1.png" alt="">
+              </div>
+              <div class="links__text">
+                Всероссийская ассоциация
+                местного самоуправления
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </main>
-    <footer>
-
+    <footer class="footer">
+      <div class="container">
+        <div class="bottom-menu">
+          <ul>
+            <li>
+              <a href="#" title="">Главная</a>
+            </li>
+            <li>
+              <a href="#" title="">О совете</a>
+            </li>
+            <li>
+              <a href="#" title="">События совета</a>
+            </li>
+            <li>
+              <a href="#" title="">Члены Совета</a>
+            </li>
+            <li>
+              <a href="#" title="">Новости регионов</a>
+            </li>
+            <li>
+              <a href="#" title="">Вопрос-ответ</a>
+            </li>
+            <li>
+              <a href="#" title="">Контакты</a>
+            </li>
+        </div>
+        <div class="bottom-row">
+          <div class="coop-cell">Координационный совет регионов Юга России. 2022</div>
+          <div class="creater-cell">
+            Разработка сайта - <a href="#" title="Интеллект-Сервис">Интеллект-Сервис</a>
+          </div>
+        </div>
+      </div>
     </footer>
   </div>
   <script src="./lib/swiper/swiper-bundle.min.js"></script>
   <script src="./js/main.js"></script>
   <script src="./js/slider.js"></script>
+  <script src="./js/mobile-menu.js"></script>
+  <script src="./js/scroll-mobile-menu.js"></script>
 </body>
 
 </html>
