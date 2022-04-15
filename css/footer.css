@@ -24,7 +24,7 @@
   font-family: var(--title-font);
 }
 .bottom-menu ul li a:hover, .bottom-menu ul li a.selected{
-  background-color: #66ccff;
+  color: #2d84af;
 }
 .bottom-row{
   color: #fff;

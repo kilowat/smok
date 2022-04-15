@@ -1,5 +1,7 @@
 @import './boot.css';
-
+textarea:focus, input:focus{
+  outline: none;
+}
 h1,h2,h3,h4{
   font-family: var(--title-font);
   font-weight: 500;
@@ -10,6 +12,7 @@ h1{
 .title-block{
   font-size: 40px;
   text-align: center;
+  margin-top: 50px;
 }
 @media screen and (max-width:1000px) {
   h1{

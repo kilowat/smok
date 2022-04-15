@@ -143,6 +143,7 @@
 .home-page .input-search{
   background-color: transparent;
   border-color: #fff;
+  color: #fff;
 }
 .input-search{
   width: 100%;
@@ -167,6 +168,14 @@
   list-style: none;  
   justify-content: space-between;
 }
+.nav-row ul li{
+  flex-grow: 1;
+  border-right: 1px solid #93dbff;
+}
+.nav-row ul li:first-child{
+  flex-grow: 1;
+  border-left: 1px solid #93dbff;;
+}
 .nav-row ul li a{
   padding-left: 10px;
   padding-right: 10px;
@@ -178,6 +187,8 @@
   align-items: center;
   height: 40px;
   font-family: var(--title-font);
+  width: 100%;
+  justify-content: center;
 }
 .nav-row ul li a:hover, .nav-row ul li a.selected{
   background-color: #66ccff;

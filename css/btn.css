@@ -5,11 +5,11 @@ a.btn{
   background-color: transparent;
   padding-left: 2em;
   padding-right: 2em;
-  padding-top: 0.62em;
-  padding-bottom: 0.58em;
+  padding-top: 0.6em;
+  padding-bottom: 0.56em;
   border-radius: 8px;
   line-height: 1em;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   box-shadow: 0;
   border: 0;
@@ -19,7 +19,8 @@ a.btn{
   justify-content: center;
   border: 1px solid currentColor;
   color: var(--text-color);
-  font-weight: 600;
+  font-weight: 400;
+  font-family: var(--title-font);
 }
 .btn.btn-primary:hover{
   background-color: var(--accent-color) ;
