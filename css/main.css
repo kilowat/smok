@@ -25,7 +25,20 @@ h1{
     padding-top: 50px;
   }
 }
-
+.section-title{
+  text-align: center;
+  font-size: 40px;
+}
+.section-title span{
+  display: block;
+}
+.section-text{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-text span{
+  display: block;
+}
 main{
   padding-bottom: 40px;
 }

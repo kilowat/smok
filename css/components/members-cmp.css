@@ -1,0 +1,26 @@
+.region-list{
+  column-count: 3;
+}
+.region-list__item{
+  display: flex;
+  margin-bottom: 20px;
+}
+.region-list__item{
+  text-decoration: none;
+}
+.region-list__item i{
+  margin-right: 4px;
+}
+.region-list__item span{
+  text-decoration: underline;
+}
+@media screen and (max-width:960px) {
+  .region-list{
+    column-count: 2;
+  }
+}
+@media screen and (max-width:640px) {
+  .region-list{
+    column-count: 1;
+  }
+}

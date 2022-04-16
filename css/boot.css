@@ -7,6 +7,9 @@
 @import './components/news-region.css';
 @import './components/links.css';
 @import './components/mobile-menu.css';
+@import './components/top-menu.css';
+@import './components/news-filter.css';
+@import './components/members-cmp.css';
 @import './btn.css';
 @import './header.css';
 @import './footer.css';
