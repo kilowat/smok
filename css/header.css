@@ -164,7 +164,6 @@
 .bread-crumbs-block{
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: #ccc;
+  justify-content: flex-start;
   height: 40px;
 }

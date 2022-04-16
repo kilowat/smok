@@ -189,62 +189,140 @@
       <div class="container">
         <div class="bread-crumbs-block">Хлебные крошки</div>
         <h1 class="section-title">
-          Контакты
+          Вопрос ответ
         </h1>
         <div class="section-text">
           Выберите свой регион для просмотра контактной информации вашей ассоциации муниципальных образований.
         </div>
-        <div class="contacts">
-          <div class="contacts__wrapper">
-            <div class="contacts__pic contacts__cell">
-              <a href="./img/contacts.png" title="#">
-                <img src="./img//contacts.png" alt="#">
-              </a>
+        <div class="faq block-bg-color" id="faq-toggle">
+          <div class="faq__panel" id="faq-panel">
+            <div class="faq__panel-item">
+              <input type="radio" id="faq-1" checked="checked" name="faq-panel" value="faq-1">
+              <label class="btn btn-primary" for="faq-1">Общие вопросы</label>
             </div>
-            <div class="contacts__info contacts__cell">
-              <div class="contacts__row region-row">
-                <div class="contacts__region-label-cell">
-                  <label class="contacts__region-label" for="contacts-region">Ваш регион:</label>
-                </div>
-                <div class="contacts__region-select-cell">
-                  <div class="select-arrow">
-                    <select id="contacts-region" name="contacts-region" data-replace="jselect" data-locale="en"
-                      data-placeholder="Выберите ваш регион">
-                      <option value="single" data-img="./img/flag.png">Краснодарский край</option>
-                      <option value="single" data-img="./img/flag.png">Краснодарский край</option>
-                      <option value="single" data-img="./img/flag.png">Краснодарский край</option>
-                    </select>
+            <div class="faq__panel-item">
+              <input type="radio" id="faq-2" name="faq-panel" value="faq-2">
+              <label  class="btn btn-primary" for="faq-2">Раздел вопросов</label>
+            </div>
+          </div>
+          <div class="faq__group-list">
+            <div class="faq__list faq-1">
+              <div class="faq__item --opened">
+                <div class="faq__name">Для кого подходят курсы?</div>
+                <div class="faq__text">
+                  <div class="faq__text-wrapp">
+                    Решение о выдаче лицензии: Приказ №3110 от 01.10.2021. Регистрационный номер лицензии №10144, выдана Министерством образования, науки и молодежной политики Краснодарского края
                   </div>
                 </div>
+                <span class="toggle-arrow">
+                  <i class="arrow-down-ic"></i>
+                </span>
               </div>
-              <div class="contacts__row">
-                <div class="contacts__name">Адрес:</div>
-                <div class="contacts__value">г. Краснодар, ул. Ленина, д. 65, офис 307</div>
-              </div>
-              <div class="contacts__row">
-                <div class="contacts__name">Email:</div>
-                <div class="contacts__value"><a href="mailto:sovet-mokk23@rambler.ru"
-                    title="sovet-mokk23@rambler.ru"></a>sovet-mokk23@rambler.ru</div>
-              </div>
-              <div class="contacts__row">
-                <div class="contacts__name">Телефон:</div>
-                <div class="contacts__value">
-                  <ul>
-                    <li>
-                      <a href="call:+7 (861) 275-10-45" title="+7 (861) 275-10-45">+7 (861) 275-10-45</a>
-                    </li>
-                    <li>
-                      <a href="call:+7 (861) 275-12-56" title="+7 (861) 275-12-56">+7 (861) 275-12-56</a>
-                    </li>
-                  </ul>
+              <div class="faq__item">
+                <div class="faq__name">Для кого подходят курсы?</div>
+                <div class="faq__text">
+                  <div class="faq__text-wrapp">
+                    Решение о выдаче лицензии: Приказ №3110 от 01.10.2021. Регистрационный номер лицензии №10144, выдана Министерством образования, науки и молодежной политики Краснодарского края
+                  </div>
                 </div>
+                <span class="toggle-arrow">
+                  <i class="arrow-down-ic"></i>
+                </span>
+              </div>
+              <div class="faq__item">
+                <div class="faq__name">Для кого подходят курсы?</div>
+                <div class="faq__text">
+                  <div class="faq__text-wrapp">
+                    Решение о выдаче лицензии: Приказ №3110 от 01.10.2021. Регистрационный номер лицензии №10144, выдана Министерством образования, науки и молодежной политики Краснодарского края
+                  </div>
+                </div>
+                <span class="toggle-arrow">
+                  <i class="arrow-down-ic"></i>
+                </span>
+              </div>
+              <div class="faq__item">
+                <div class="faq__name">Для кого подходят курсы?</div>
+                <div class="faq__text">
+                  <div class="faq__text-wrapp">
+                    Решение о выдаче лицензии: Приказ №3110 от 01.10.2021. Регистрационный номер лицензии №10144, выдана Министерством образования, науки и молодежной политики Краснодарского края
+                  </div>
+                </div>
+                <span class="toggle-arrow">
+                  <i class="arrow-down-ic"></i>
+                </span>
+              </div>
+              <div class="faq__item">
+                <div class="faq__name">Для кого подходят курсы?</div>
+                <div class="faq__text">
+                  <div class="faq__text-wrapp">
+                    Решение о выдаче лицензии: Приказ №3110 от 01.10.2021. Регистрационный номер лицензии №10144, выдана Министерством образования, науки и молодежной политики Краснодарского края
+                  </div>
+                </div>
+                <span class="toggle-arrow">
+                  <i class="arrow-down-ic"></i>
+                </span>
+              </div>
+            </div>
+            <div class="faq__list faq-2" style="display: none;">
+              <div class="faq__item --opened">
+                <div class="faq__name">Раздел вопросов</div>
+                <div class="faq__text">
+                  <div class="faq__text-wrapp">
+                    Решение о выдаче лицензии: Приказ №3110 от 01.10.2021. Регистрационный номер лицензии №10144, выдана Министерством образования, науки и молодежной политики Краснодарского края
+                  </div>
+                </div>
+                <span class="toggle-arrow">
+                  <i class="arrow-down-ic"></i>
+                </span>
+              </div>
+              <div class="faq__item">
+                <div class="faq__name">Для кого подходят курсы?</div>
+                <div class="faq__text">
+                  <div class="faq__text-wrapp">
+                    Решение о выдаче лицензии: Приказ №3110 от 01.10.2021. Регистрационный номер лицензии №10144, выдана Министерством образования, науки и молодежной политики Краснодарского края
+                  </div>
+                </div>
+                <span class="toggle-arrow">
+                  <i class="arrow-down-ic"></i>
+                </span>
+              </div>
+              <div class="faq__item">
+                <div class="faq__name">Для кого подходят курсы?</div>
+                <div class="faq__text">
+                  <div class="faq__text-wrapp">
+                    Решение о выдаче лицензии: Приказ №3110 от 01.10.2021. Регистрационный номер лицензии №10144, выдана Министерством образования, науки и молодежной политики Краснодарского края
+                  </div>
+                </div>
+                <span class="toggle-arrow">
+                  <i class="arrow-down-ic"></i>
+                </span>
+              </div>
+              <div class="faq__item">
+                <div class="faq__name">Для кого подходят курсы?</div>
+                <div class="faq__text">
+                  <div class="faq__text-wrapp">
+                    Решение о выдаче лицензии: Приказ №3110 от 01.10.2021. Регистрационный номер лицензии №10144, выдана Министерством образования, науки и молодежной политики Краснодарского края
+                  </div>
+                </div>
+                <span class="toggle-arrow">
+                  <i class="arrow-down-ic"></i>
+                </span>
+              </div>
+              <div class="faq__item">
+                <div class="faq__name">Для кого подходят курсы?</div>
+                <div class="faq__text">
+                  <div class="faq__text-wrapp">
+                    Решение о выдаче лицензии: Приказ №3110 от 01.10.2021. Регистрационный номер лицензии №10144, выдана Министерством образования, науки и молодежной политики Краснодарского края
+                  </div>
+                </div>
+                <span class="toggle-arrow">
+                  <i class="arrow-down-ic"></i>
+                </span>
               </div>
             </div>
           </div>
-          <div class="ya-map-block">
-            <div class="ya-map"></div>
-            <div class="ya-map-gap"></div>
-          </div>
+
+        
         </div>
       </div>
     </main>
@@ -290,6 +368,7 @@
   <script src="./js/mobile-menu.js"></script>
   <script src="./js/main-menu.js"></script>
   <script src="./js/scroll-mobile-menu.js"></script>
+  <script src="./js/faq-toggle.js"></script>
 </body>
 
 </html>
