@@ -148,9 +148,7 @@
   cursor: pointer;
   border-bottom: 1px solid #ccc;
 }
-.jselect--option:hover{
-	color: #000000;
-}
+
 .jselect__list>.jselect--option:last-child {
 	border-radius: 0 0 .25rem .25rem
 }

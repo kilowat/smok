@@ -4,10 +4,15 @@
   border-radius: 6px;
   border: 1px solid #ccc;
   text-decoration: none;
+  color: var(--text-color);
 }
 .news-region__item:hover{
   border-color: #000;
+  color: var(--text-color);
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.news-region__item:hover .news-region__name{
+  color: #000;
 }
 .news-region__pic{
   width: 120px;
