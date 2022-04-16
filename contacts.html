@@ -189,64 +189,58 @@
       <div class="container">
         <div class="bread-crumbs-block">Хлебные крошки</div>
         <h1 class="section-title">
-          <span>ЧЛЕНЫ КООРДИНАЦИОННОГО СОВЕТА АССОЦИАЦИЙ</span>
-          <span>МУНИЦИПАЛЬНЫХ ОБРАЗОВАНИЙ РЕГИОНОВ ЮГА РОССИИ</span>  
+          Контакты
         </h1>
         <div class="section-text">
-          <span>Все новости и освещение событий координационного совета </span>
-          <span>ассоциаций муниципальных образований регионов Южного и Северо-Кавказских округов.</span>
+          Выберите свой регион для просмотра контактной информации вашей ассоциации муниципальных образований.
         </div>
-        <div class="members-cmp">
-          <div class="map-block">
-            <div class="map text-center">
-              <img src="./img/map-img.png" style="max-width: 100%;" alt="">
+        <div class="contacts">
+          <div class="contacts__wrapper">
+            <div class="contacts__pic contacts__cell">
+              <a href="./img/contacts.png" title="#">
+                <img src="./img//contacts.png" alt="#">
+              </a>
+            </div>
+            <div class="contacts__info contacts__cell">
+              <div class="contacts__row region-row">
+                <div class="contacts__region-label-cell">
+                  <label for="contacts-region">Ваш регион:</label>
+                </div>
+                <div class="contacts__region-select-cell">
+                  <select id="contacts-region" name="contacts-region" data-replace="jselect" data-locale="en"
+                     data-placeholder="Выберите ваш регион">
+                    <option value="single" data-img="./img/flag.png">Краснодарский край</option>
+                    <option value="single" data-img="./img/flag.png">Краснодарский край</option>
+                    <option value="single" data-img="./img/flag.png">Краснодарский край</option>
+                  </select>
+                </div>
+              </div>
+              <div class="contacts__row">
+                <div class="contacts__name">Адрес:</div>
+                <div class="contacts__value">г. Краснодар, ул. Ленина, д. 65, офис 307</div>
+              </div>
+              <div class="contacts__row">
+                <div class="contacts__name">Email:</div>
+                <div class="contacts__value"><a href="mailto:sovet-mokk23@rambler.ru" title="sovet-mokk23@rambler.ru"></a>sovet-mokk23@rambler.ru</div>
+              </div>
+              <div class="contacts__row">
+                <div class="contacts__name">Телефон:</div>
+                <div class="contacts__value">
+                  <ul>
+                    <li>                   
+                      <a href="call:+7 (861) 275-10-45" title="+7 (861) 275-10-45">+7 (861) 275-10-45</a>
+                    </li>
+                    <li>                   
+                      <a href="call:+7 (861) 275-12-56" title="+7 (861) 275-12-56">+7 (861) 275-12-56</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="region-list">
-            <a class="region-list__item" href="#">
-              <i class="flag-icon" style="background-image: url(./img/flag.png);"></i>
-              <span>Краснодарский край</span>
-            </a>
-            <a class="region-list__item" href="#">
-              <i class="flag-icon" style="background-image: url(./img/flag.png);"></i>
-              <span>Краснодарский край 2</span>
-            </a>
-            <a class="region-list__item" href="#">
-              <i class="flag-icon" style="background-image: url(./img/flag.png);"></i>
-              <span>Краснодарский край 3</span>
-            </a>
-            <a class="region-list__item" href="#">
-              <i class="flag-icon" style="background-image: url(./img/flag.png);"></i>
-              <span>Краснодарский край</span>
-            </a>
-            <a class="region-list__item" href="#">
-              <i class="flag-icon" style="background-image: url(./img/flag.png);"></i>
-              <span>Краснодарский край</span>
-            </a>
-            <a class="region-list__item" href="#">
-              <i class="flag-icon" style="background-image: url(./img/flag.png);"></i>
-              <span>Краснодарский край</span>
-            </a>
-            <a class="region-list__item" href="#">
-              <i class="flag-icon" style="background-image: url(./img/flag.png);"></i>
-              <span>Краснодарский край</span>
-            </a>
-            <a class="region-list__item" href="#">
-              <i class="flag-icon" style="background-image: url(./img/flag.png);"></i>
-              <span>Краснодарский край</span>
-            </a>
-            <a class="region-list__item" href="#">
-              <i class="flag-icon" style="background-image: url(./img/flag.png);"></i>
-              <span>Краснодарский край</span>
-            </a>
-            <a class="region-list__item" href="#">
-              <i class="flag-icon" style="background-image: url(./img/flag.png);"></i>
-              <span>Краснодарский край</span>
-            </a>
-            <a class="region-list__item" href="#">
-              <i class="flag-icon" style="background-image: url(./img/flag.png);"></i>
-              <span>Краснодарский край</span>
-            </a>
+          <div class="ya-map-block">
+            <div class="ya-map"></div>
+            <div class="ya-map-gap"></div>
           </div>
         </div>
       </div>
@@ -287,6 +281,7 @@
     </footer>
   </div>
   <script src="./lib/swiper/swiper-bundle.min.js"></script>
+  <script src="./lib/select/select.min.js"></script>
   <script src="./js/main.js"></script>
   <script src="./js/slider.js"></script>
   <script src="./js/mobile-menu.js"></script>

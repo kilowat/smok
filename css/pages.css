@@ -35,3 +35,39 @@
    padding: 0;;
   }
 }
+.contacts__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 40px;
+}
+.contacts__cell{
+  width: calc(50% - 20px);
+  margin: 10px;
+}
+.contacts__pic img{
+  max-width: 100%;
+}
+.contacts__row.region-row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.contacts__region-label-cell{
+  width: 100px;
+}
+.contacts__region-select-cell{
+  width: calc(100% - 100px);
+  max-width: 320px;
+}
+.ya-map{
+  left: 0;
+  width: 100%;
+  position: absolute;
+  height: 450px;
+  background-color: #ccc;
+}
+.ya-map-gap{
+  height: 410px;
+}

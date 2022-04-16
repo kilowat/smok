@@ -1,5 +1,7 @@
 @import './vars.css';
 @import '../lib/swiper/swiper-bundle.min.css';
+@import '../lib/select/select.min.css';
+@import './select.css';
 @import '../fonts/font_face.css';
 @import './normalize.css';
 @import './components/main-slider.css';
